@@ -1,0 +1,69 @@
+deg,dis = map(int,input().split())
+
+deg = round(deg / 10, 10)
+w = 0
+if 11.25 <= deg < 33.75:
+    w = "NNE"
+elif 33.75 <= deg < 56.25:
+    w = "NE"
+elif 56.25 <= deg < 78.75:
+    w = "ENE"
+elif 78.75 <= deg < 101.25:
+    w = "E"
+elif 101.25 <= deg < 123.75:
+    w = "ESE"
+elif 123.75 <= deg < 146.25:
+    w = "SE"
+elif 146.25 <= deg < 168.75:
+    w = "SSE"
+elif 168.75 <= deg < 191.25:
+    w = "S"
+elif 191.25 <= deg < 213.75:
+    w = "SSW"
+elif 213.75 <= deg < 236.25:
+    w = "SW"
+elif 236.25 <= deg < 258.75:
+    w = "WSW"
+elif 258.75 <= deg < 281.25:
+    w = "W"
+elif 281.25 <= deg < 303.75:
+    w = "WNW"
+elif 303.75 <= deg < 326.25:
+    w = "NW"
+elif 326.25 <= deg < 348.75:
+    w = "NNW"
+else:
+    w = "N"
+
+dis = round(dis / 60, 10)
+
+wpm = 0
+if 0.0 <= dis < 0.3:
+    wpm = 0
+    w = "C"
+elif 0.3 <= dis < 1.6:
+    wpm = 1
+elif 1.6 <= dis < 3.4:
+    wpm = 2
+elif 3.4 <= dis < 5.5:
+    wpm = 3
+elif 5.5 <= dis < 8.0:
+    wpm = 4
+elif 8.0 <= dis < 10.8:
+    wpm = 5
+elif 10.8 <= dis < 13.9:
+    wpm = 6
+elif 13.9 <= dis < 17.2:
+    wpm = 7
+elif 17.2 <= dis < 20.8:
+    wpm = 8
+elif 20.8 <= dis < 24.5:
+    wpm = 9
+elif 24.5 <= dis < 28.5:
+    wpm = 10
+elif 28.5 <= dis < 32.7:
+    wpm = 11
+elif 32.7 <= dis:
+    wpm = 12
+
+print(w,wpm)
