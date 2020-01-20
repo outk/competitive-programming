@@ -1,7 +1,11 @@
 {
+<<<<<<< HEAD
     "files.associations": {
         "xstring": "cpp",
         "algorithm": "cpp",
         "ostream": "cpp"
     }
+=======
+    "python.pythonPath": "C:\\Users\\Tetsuya Kobayashi\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+>>>>>>> 2e840c7d86bca0d01786db4fd17f9887523043c6
 }
