@@ -1,6 +1,7 @@
 {
     "python.pythonPath": "C:\\Users\\Tetsuya Kobayashi\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "files.associations": {
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "ostream": "cpp"
     }
 }
